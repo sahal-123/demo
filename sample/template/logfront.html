@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="2">
+    <thead>
+    <th>RollNumber</th>
+    <th>Name</th>
+    <th>Class</th>
+    </thead>
+    <tbody>
+    {%for i in r %}
+    <tr>
+        <td>{{i.rollno}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.age}}</td>
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
